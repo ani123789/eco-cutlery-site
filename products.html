@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - EcoCutlery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Floating Background Elements -->
+    <div class="floating-element"></div>
+    <div class="floating-element"></div>
+    <div class="floating-element"></div>
+
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <nav>
+                <a href="index.html" class="logo">🌱 EcoCutlery</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html" class="active">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <a href="order.html" class="cta-button">Order Now</a>
+            </nav>
+        </header>
+
+        <!-- Products Hero Section -->
+        <section class="products-hero">
+            <h1>Our Delicious Products</h1>
+            <p>Discover our range of edible cutlery made from natural ingredients. Each piece is crafted to be both functional and flavorful!</p>
+        </section>
+
+        <!-- Product Categories -->
+        <section class="product-categories">
+            <div class="category-filters">
+                <button class="filter-btn active" data-category="all">All Products</button>
+                <button class="filter-btn" data-category="spoons">Spoons</button>
+                <button class="filter-btn" data-category="forks">Forks</button>
+                <button class="filter-btn" data-category="knives">Knives</button>
+                <button class="filter-btn" data-category="straws">Straws</button>
+                <button class="filter-btn" data-category="bowls">Bowls</button>
+                <button class="filter-btn" data-category="plates">Plates</button>
+                <button class="filter-btn" data-category="dinner-sets">Dinner Sets</button>
+                <button class="filter-btn" data-category="combos">Combo Packs</button>
+            </div>
+        </section>
+
+        <!-- Products Grid -->
+        <section class="products-grid">
+            <!-- Spoons -->
+            <div class="product-card" data-category="spoons">
+                <div class="product-image">
+                    <img src="/placeholder.svg?height=300&width=300" alt="Vanilla Spoons">
+                    <div class="product-badge">Popular</div>
+                </div>
+                <div class="product-info">
+                    <h3>Vanilla Spoons</h3>
+                    <p>Sweet vanilla-flavored spoons perfect for desserts and ice cream. Made from wheat flour and natural vanilla extract.</p>
+                    <div class="product-details">
+                        <span class="product-price">$12.99</span>
+                        <span class="product-quantity">Pack of 20</span>
+                    </div>
+                    <button class="add-to-cart-btn" data-product="vanilla-spoons" data-price="12.99">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="spoons">
+                <div class="product-image">
+                    <img src="/placeholder.svg?height=300&width=300" alt="Chocolate Spoons">
+                </div>
+                <div class="product-info">
+                    <h3>Chocolate Spoons</h3>
+                    <p>Rich chocolate-flavored spoons that complement any hot beverage or dessert. Made with organic cocoa powder.</p>
+                    <div class="product-details">
+                        <span class="product-price">$14.99</span>
+                        <span class="product-quantity">Pack of 20</span>
+                    </div>
+                    <button class="add-to-cart-btn" data-product="chocolate-spoons" data-price="14.99">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="spoons">
+                <div class="product-image">
+                    <img src="/placeholder.svg?height=300&width=300" alt="Plain Spoons">
+                </div>
+                <div class="product-info">
+                    <h3>Plain Spoons</h3>
+                    <p>Neutral-flavored spoons perfect for savory dishes. Made from rice flour and natural binding agents.</p>
+                    <div class="product-details">
+                        <span class="product-price">$10.99</span>
+                        <span class="product-quantity">Pack of 25</span>
+                    </div>
+                    <button class="add-to-cart-btn" data-product="plain-spoons" data-price="10.99">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Forks -->
+            <div class="product-card" data-category="forks">
+                <div class="product-image">
+                    <img src="/placeholder.svg?height=300&width=300" alt="Herb Forks">
+                    <div class="product-badge">New</div>
+                </div>
+                <div class="product-info">
+                    <h3>Herb Forks</h3>
+                    <p>Savory herb-infused forks with basil and oregano. Perfect for pasta dishes and salads.</p>
+                    <div class="product-details">
+                        <span class="product-price">$13.99</span>
+                        <span class="product-quantity">Pack of 18</span>
+                    </div>
+                    <button class="add-to-cart-btn" data-product="herb-forks" data-price="13.99">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="forks">
+                <div class="product-image">
+                    <img src="/placeholder.svg?height=300&width=300" alt="Garlic Forks">
+                </div>
+                <div class="product-info">
+                    <h3>Garlic Forks</h3>
+                    <p>Aromatic garlic-flavored forks that enhance any savory meal. Made with real garlic powder and wheat flour.</p>
+                    <div class="product-details">
+                        <span class="product-price">$13.99</span>
+                        <span class="product-quantity">Pack of 18</span>
+                    </div>
+                    <button class="add-to-cart-btn" data-product="garlic-forks" data-price="13.99">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Knives -->
+            <div class="product-card" data-category="knives">
+                <div class="product-image">
+                    <img src="/placeholder.svg?height=300&width=300" alt="Sesame Knives">
+                </div>
+                <div class="product-info">
+                    <h3>Sesame Knives</h3>
+                    <p>Nutty sesame-flavored knives perfect for spreading and cutting soft foods. Made with sesame seeds and rice flour.</p>
+                    <div class="product-details">
+                        <span class="product-price">$15.99</span>
+                        <span class="product-quantity">Pack of 15</span>
+                    </div>
+                    <button class="add-to-cart-btn" data-product="sesame-knives" data-price="15.99">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="knives">
+                <div class="product-image">
+                    <img src="/placeholder.svg?height=300&width=300" alt="Plain Knives">
+                </div>
+                <div class="product-info">
+                    <h3>Plain Knives</h3>
+                    <p>Versatile neutral-flavored knives suitable for any meal. Strong enough for cutting, tasty enough to eat.</p>
+                    <div class="product-details">
+                        <span class="product-price">$12.99</span>
+                        <span class="product-quantity">Pack of 15</span>
+                    </div>
+                    <button class="add-to-cart-btn" data-product="plain-knives" data-price="12.99">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Straws -->
+            <div class="product-card" data-category="straws">
+                <div class="product-image">
+                    <img src="/placeholder.svg?height=300&width=300" alt="Flavored Straws">
+                    <div class="product-badge">Eco-Friendly</div>
+                </div>
+                <div class="product-info">
+                    <h3>Flavored Drinking Straws</h3>
+                    <p>Colorful edible straws in strawberry, vanilla, and chocolate flavors. Perfect for smoothies and milkshakes.</p>
+                    <div class="product-details">
+                        <span class="product-price">$8.99</span>
+                        <span class="product-quantity">Pack of 30</span>
+                    </div>
+                    <button class="add-to-cart-btn" data-product="flavored-straws" data-price="8.99">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="straws">
+                <div class="product-image">
+                    <img src="/placeholder.svg?height=300&width=300" alt="Plain Straws">
+                </div>
+                <div class="product-info">
+                    <h3>Plain Drinking Straws</h3>
+                    <p>Neutral-flavored straws made from rice flour. Biodegradable and perfect for any beverage.</p>
+                    <div class="product-details">
+                        <span class="product-price">$6.99</span>
+                        <span class="product-quantity">Pack of 40</span>
+                    </div>
+                    <button class="add-to-cart-btn" data-product="plain-straws" data-price="6.99">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="straws">
+                <div class="product-image">
+                    <img src="/placeholder.svg?height=300&width=300" alt="Wide Straws">
+                </div>
+                <div class="product-info">
+                    <h3>Wide Bubble Tea Straws</h3>
+                    <p>Extra-wide straws perfect for bubble tea and thick smoothies. Made with tapioca flour for extra durability.</p>
+                    <div class="product-details">
+                        <span class="product-price">$11.99</span>
+                        <span class="product-quantity">Pack of 25</span>
+                    </div>
+                    <button class="add-to-cart-btn" data-product="wide-straws" data-price="11.99">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Bowls -->
+            <div class="product-card" data-category="bowls">
+                <div class="product-image">
+                    <img src="/placeholder.svg?height=300&width=300" alt="Soup Bowls">
+                    <div class="product-badge">New</div>
+                </div>
+                <div class="product-info">
+                    <h3>Edible Soup Bowls</h3>
+                    <p>Large bowls perfect for soups, salads, and cereals. Made from compressed wheat bran with a crispy texture.</p>
+                    <div class="product-details">
+                        <span class="product-price">$18.99</span>
+                        <span class="product-quantity">Pack of 8</span>
+                    </div>
+                    <button class="add-to-cart-btn" data-product="soup-bowls" data-price="18.99">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="bowls">
+                <div class="product-image">
+                    <img src="/placeholder.svg?height=300&width=300" alt="Dessert Bowls">
+                </div>
+                <div class="product-info">
+                    <h3>Sweet Dessert Bowls</h3>
+                    <p>Small vanilla-flavored bowls perfect for ice cream, puddings, and fruit salads. Adds sweetness to your dessert.</p>
+                    <div class="product-details">
+                        <span class="product-price">$15.99</span>
+                        <span class="product-quantity">Pack of 12</span>
+                    </div>
+                    <button class="add-to-cart-btn" data-product="dessert-bowls" data-price="15.99">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="bowls">
+                <div class="product-image">
+                    <img src="/placeholder.svg?height=300&width=300" alt="Herb Bowls">
+                </div>
+                <div class="product-info">
+                    <h3>Herb-Infused Bowls</h3>
+                    <p>Savory bowls with mixed herbs and spices. Perfect for salads, pasta, and grain bowls.</p>
+                    <div class="product-details">
+                        <span class="product-price">$19.99</span>
+                        <span class="product-quantity">Pack of 8</span>
+                    </div>
+                    <button class="add-to-cart-btn" data-product="herb-bowls" data-price="19.99">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Plates -->
+            <div class="product-card" data-category="plates">
+                <div class="product-image">
+                    <img src="/placeholder.svg?height=300&width=300" alt="Dinner Plates">
+                    <div class="product-badge">Popular</div>
+                </div>
+                <div class="product-info">
+                    <h3>Edible Dinner Plates</h3>
+                    <p>Large round plates made from compressed grains. Perfect for main courses and can hold hot foods for 45+ minutes.</p>
+                    <div class="product-details">
+                        <span class="product-price">$24.99</span>
+                        <span class="product-quantity">Pack of 6</span>
+                    </div>
+                    <button class="add-to-cart-btn" data-product="dinner-plates" data-price="24.99">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="plates">
+                <div class="product-image">
+                    <img src="/placeholder.svg?height=300&width=300" alt="Appetizer Plates">
+                </div>
+                <div class="product-info">
+                    <h3>Appetizer Plates</h3>
+                    <p>Small plates perfect for appetizers, desserts, and side dishes. Made with sesame seeds for extra flavor.</p>
+                    <div class="product-details">
+                        <span class="product-price">$16.99</span>
+                        <span class="product-quantity">Pack of 10</span>
+                    </div>
+                    <button class="add-to-cart-btn" data-product="appetizer-plates" data-price="16.99">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="plates">
+                <div class="product-image">
+                    <img src="/placeholder.svg?height=300&width=300" alt="Square Plates">
+                </div>
+                <div class="product-info">
+                    <h3>Modern Square Plates</h3>
+                    <p>Contemporary square plates with a subtle herb flavor. Perfect for elegant dining and special occasions.</p>
+                    <div class="product-details">
+                        <span class="product-price">$22.99</span>
+                        <span class="product-quantity">Pack of 6</span>
+                    </div>
+                    <button class="add-to-cart-btn" data-product="square-plates" data-price="22.99">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Dinner Sets -->
+            <div class="product-card" data-category="dinner-sets">
+                <div class="product-image">
+                    <img src="/placeholder.svg?height=300&width=300" alt="Complete Family Set">
+                    <div class="product-badge">Best Value</div>
+                </div>
+                <div class="product-info">
+                    <h3>Complete Family Dinner Set</h3>
+                    <p>Everything you need for a family meal: plates, bowls, cutlery, and straws. Serves 4 people completely.</p>
+                    <div class="product-details">
+                        <span class="product-price">$89.99</span>
+                        <span class="product-quantity">52 pieces total</span>
+                    </div>
+                    <button class="add-to-cart-btn" data-product="family-dinner-set" data-price="89.99">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="dinner-sets">
+                <div class="product-image">
+                    <img src="/placeholder.svg?height=300&width=300" alt="Romantic Dinner Set">
+                </div>
+                <div class="product-info">
+                    <h3>Romantic Dinner Set for Two</h3>
+                    <p>Elegant dinner set for couples with vanilla and chocolate flavored pieces. Perfect for date nights.</p>
+                    <div class="product-details">
+                        <span class="product-price">$45.99</span>
+                        <span class="product-quantity">26 pieces total</span>
+                    </div>
+                    <button class="add-to-cart-btn" data-product="romantic-dinner-set" data-price="45.99">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="dinner-sets">
+                <div class="product-image">
+                    <img src="/placeholder.svg?height=300&width=300" alt="Kids Dinner Set">
+                    <div class="product-badge">Kid-Friendly</div>
+                </div>
+                <div class="product-info">
+                    <h3>Kids Fun Dinner Set</h3>
+                    <p>Colorful and fun dinner set designed for children with sweet flavors and smaller sizes. Makes eating fun!</p>
+                    <div class="product-details">
+                        <span class="product-price">$32.99</span>
+                        <span class="product-quantity">24 pieces total</span>
+                    </div>
+                    <button class="add-to-cart-btn" data-product="kids-dinner-set" data-price="32.99">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="dinner-sets">
+                <div class="product-image">
+                    <img src="/placeholder.svg?height=300&width=300" alt="Party Dinner Set">
+                </div>
+                <div class="product-info">
+                    <h3>Party Dinner Set</h3>
+                    <p>Large dinner set perfect for parties and events. Includes assorted flavors and serves up to 8 people.</p>
+                    <div class="product-details">
+                        <span class="product-price">$149.99</span>
+                        <span class="product-quantity">104 pieces total</span>
+                    </div>
+                    <button class="add-to-cart-btn" data-product="party-dinner-set" data-price="149.99">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Combo Packs -->
+            <div class="product-card" data-category="combos">
+                <div class="product-image">
+                    <img src="/placeholder.svg?height=300&width=300" alt="Family Combo Pack">
+                    <div class="product-badge">Best Value</div>
+                </div>
+                <div class="product-info">
+                    <h3>Family Combo Pack</h3>
+                    <p>Complete set with spoons, forks, and knives in various flavors. Perfect for family meals and gatherings.</p>
+                    <div class="product-details">
+                        <span class="product-price">$34.99</span>
+                        <span class="product-quantity">60 pieces total</span>
+                    </div>
+                    <button class="add-to-cart-btn" data-product="family-combo" data-price="34.99">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="combos">
+                <div class="product-image">
+                    <img src="/placeholder.svg?height=300&width=300" alt="Party Pack">
+                </div>
+                <div class="product-info">
+                    <h3>Party Pack</h3>
+                    <p>Assorted flavored cutlery perfect for parties and events. Includes sweet and savory options.</p>
+                    <div class="product-details">
+                        <span class="product-price">$49.99</span>
+                        <span class="product-quantity">100 pieces total</span>
+                    </div>
+                    <button class="add-to-cart-btn" data-product="party-pack" data-price="49.99">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Features -->
+        <section class="product-features">
+            <h2>Why Our Products Are Special</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">🌾</div>
+                    <h3>Natural Ingredients</h3>
+                    <p>Made from wheat, rice, and other natural grains with no artificial preservatives.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">⏰</div>
+                    <h3>Long Lasting</h3>
+                    <p>Stays firm for 30+ minutes in hot liquids and maintains structure throughout your meal.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🎨</div>
+                    <h3>Multiple Flavors</h3>
+                    <p>From sweet vanilla to savory herbs, we have flavors to complement any dish.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">📦</div>
+                    <h3>Bulk Options</h3>
+                    <p>Available in various pack sizes for individuals, families, and commercial use.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <span class="logo-icon">🌱</span>
+                        <h3>EcoCutlery</h3>
+                    </div>
+                    <p>Making the world greener, one bite at a time. Join the sustainable eating revolution with our delicious edible cutlery.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">📘</a>
+                        <a href="#" class="social-link">📷</a>
+                        <a href="#" class="social-link">🐦</a>
+                        <a href="#" class="social-link">💼</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Products</h4>
+                    <ul class="footer-links">
+                        <li><a href="products.html">Edible Spoons</a></li>
+                        <li><a href="products.html">Edible Forks</a></li>
+                        <li><a href="products.html">Edible Knives</a></li>
+                        <li><a href="products.html">Edible Straws</a></li>
+                        <li><a href="products.html">Edible Bowls</a></li>
+                        <li><a href="products.html">Edible Plates</a></li>
+                        <li><a href="products.html">Dinner Sets</a></li>
+                        <li><a href="products.html">Combo Packs</a></li>
+                        <li><a href="contact.html">Custom Orders</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="about.html">Our Mission</a></li>
+                        <li><a href="about.html">Sustainability</a></li>
+                        <li><a href="contact.html">Careers</a></li>
+                        <li><a href="contact.html">Press</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="contact.html">FAQ</a></li>
+                        <li><a href="contact.html">Shipping Info</a></li>
+                        <li><a href="contact.html">Returns</a></li>
+                        <li><a href="contact.html">Wholesale</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section newsletter">
+                    <h4>Stay Updated</h4>
+                    <p>Get the latest news about sustainable eating and special offers!</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Enter your email" class="newsletter-input">
+                        <button class="newsletter-btn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2024 EcoCutlery. All rights reserved. Made with 💚 for the planet.</p>
+                    <div class="footer-bottom-links">
+                        <a href="contact.html">Privacy Policy</a>
+                        <a href="contact.html">Terms of Service</a>
+                        <a href="contact.html">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
