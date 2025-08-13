@@ -9,25 +9,25 @@ document.addEventListener("DOMContentLoaded", () => {
     "vanilla-spoons": {
       name: "Vanilla Spoons",
       price: 12.99,
-      image: "/placeholder.svg?height=200&width=200",
+      image: "./uploads/vanilla.jpg",
       desc: "Pack of 20",
     },
     "chocolate-spoons": {
       name: "Chocolate Spoons",
       price: 14.99,
-      image: "/placeholder.svg?height=200&width=200",
+      image: "./uploads/chocolate.jpg",
       desc: "Pack of 20",
     },
     "herb-forks": {
       name: "Herb Forks",
       price: 13.99,
-      image: "/placeholder.svg?height=200&width=200",
+      image: "./uploads/herb_forks.jpg",
       desc: "Pack of 18",
     },
     "family-combo": {
       name: "Family Combo Pack",
       price: 34.99,
-      image: "/placeholder.svg?height=200&width=200",
+      image: "./uploads/family_combo.jpg",
       desc: "60 pieces total",
     },
   }
